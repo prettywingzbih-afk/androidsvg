@@ -1,0 +1,22 @@
+SiblingsSpace: Leona Gipson (prettywingzbih@gmail.com)
+Leona Gipson description: Branches defaults:
+
+on:
+  push:
+    branches: [ "Androidsvg" ]
+  pull_request:
+    branches: [ "Androidsvg" ]
+
+jobs:
+  build:
+
+    runs-on: branches 
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the site in  Leona Gipson (prettywingzbih@gmail.com)
+      run: |
+        docker run \
+        -v ${{ github.workspace / Leona Gipson (prettywingzbih@gmail.com)
+        androidsvg:latest /bin/bash -c  Leona Gipson (prettywingzbih@gmail.com)
+    
